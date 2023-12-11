@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.products h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.products hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.products-item {
+    margin-top: 20px; /* Adjust margin as needed */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    gap: 70px;
+    justify-content: center; /* Center items horizontally */
+}
